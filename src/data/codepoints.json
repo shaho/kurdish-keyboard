@@ -1,0 +1,422 @@
+{
+  "version": "1.1.0",
+  "sources": {
+    "krg": "Kurdish Unified Keyboard, KRG Department of IT Unicode Team, version 1.02 (2014) — unicode.ekrg.org",
+    "ucd": "Unicode Character Database, UnicodeData.txt (verified 2026-07-17)",
+    "research": "proposal/001-idea-research.md"
+  },
+  "letters": [
+    {
+      "char": "ç",
+      "codepoint": "U+00E7",
+      "name": "LATIN SMALL LETTER C WITH CEDILLA",
+      "script": "kurmanji"
+    },
+    {
+      "char": "Ç",
+      "codepoint": "U+00C7",
+      "name": "LATIN CAPITAL LETTER C WITH CEDILLA",
+      "script": "kurmanji"
+    },
+    {
+      "char": "ê",
+      "codepoint": "U+00EA",
+      "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX",
+      "script": "kurmanji"
+    },
+    {
+      "char": "Ê",
+      "codepoint": "U+00CA",
+      "name": "LATIN CAPITAL LETTER E WITH CIRCUMFLEX",
+      "script": "kurmanji"
+    },
+    {
+      "char": "î",
+      "codepoint": "U+00EE",
+      "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX",
+      "script": "kurmanji"
+    },
+    {
+      "char": "Î",
+      "codepoint": "U+00CE",
+      "name": "LATIN CAPITAL LETTER I WITH CIRCUMFLEX",
+      "script": "kurmanji"
+    },
+    {
+      "char": "ş",
+      "codepoint": "U+015F",
+      "name": "LATIN SMALL LETTER S WITH CEDILLA",
+      "script": "kurmanji"
+    },
+    {
+      "char": "Ş",
+      "codepoint": "U+015E",
+      "name": "LATIN CAPITAL LETTER S WITH CEDILLA",
+      "script": "kurmanji"
+    },
+    {
+      "char": "û",
+      "codepoint": "U+00FB",
+      "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX",
+      "script": "kurmanji"
+    },
+    {
+      "char": "Û",
+      "codepoint": "U+00DB",
+      "name": "LATIN CAPITAL LETTER U WITH CIRCUMFLEX",
+      "script": "kurmanji"
+    },
+    {
+      "char": "ئ",
+      "codepoint": "U+0626",
+      "name": "ARABIC LETTER YEH WITH HAMZA ABOVE",
+      "script": "sorani"
+    },
+    {
+      "char": "ا",
+      "codepoint": "U+0627",
+      "name": "ARABIC LETTER ALEF",
+      "script": "sorani"
+    },
+    {
+      "char": "ب",
+      "codepoint": "U+0628",
+      "name": "ARABIC LETTER BEH",
+      "script": "sorani"
+    },
+    {
+      "char": "پ",
+      "codepoint": "U+067E",
+      "name": "ARABIC LETTER PEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ت",
+      "codepoint": "U+062A",
+      "name": "ARABIC LETTER TEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ج",
+      "codepoint": "U+062C",
+      "name": "ARABIC LETTER JEEM",
+      "script": "sorani"
+    },
+    {
+      "char": "چ",
+      "codepoint": "U+0686",
+      "name": "ARABIC LETTER TCHEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ح",
+      "codepoint": "U+062D",
+      "name": "ARABIC LETTER HAH",
+      "script": "sorani"
+    },
+    {
+      "char": "خ",
+      "codepoint": "U+062E",
+      "name": "ARABIC LETTER KHAH",
+      "script": "sorani"
+    },
+    {
+      "char": "د",
+      "codepoint": "U+062F",
+      "name": "ARABIC LETTER DAL",
+      "script": "sorani"
+    },
+    {
+      "char": "ر",
+      "codepoint": "U+0631",
+      "name": "ARABIC LETTER REH",
+      "script": "sorani"
+    },
+    {
+      "char": "ڕ",
+      "codepoint": "U+0695",
+      "name": "ARABIC LETTER REH WITH SMALL V BELOW",
+      "script": "sorani"
+    },
+    {
+      "char": "ز",
+      "codepoint": "U+0632",
+      "name": "ARABIC LETTER ZAIN",
+      "script": "sorani"
+    },
+    {
+      "char": "ژ",
+      "codepoint": "U+0698",
+      "name": "ARABIC LETTER JEH",
+      "script": "sorani"
+    },
+    {
+      "char": "س",
+      "codepoint": "U+0633",
+      "name": "ARABIC LETTER SEEN",
+      "script": "sorani"
+    },
+    {
+      "char": "ش",
+      "codepoint": "U+0634",
+      "name": "ARABIC LETTER SHEEN",
+      "script": "sorani"
+    },
+    {
+      "char": "ع",
+      "codepoint": "U+0639",
+      "name": "ARABIC LETTER AIN",
+      "script": "sorani"
+    },
+    {
+      "char": "غ",
+      "codepoint": "U+063A",
+      "name": "ARABIC LETTER GHAIN",
+      "script": "sorani"
+    },
+    {
+      "char": "ف",
+      "codepoint": "U+0641",
+      "name": "ARABIC LETTER FEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ڤ",
+      "codepoint": "U+06A4",
+      "name": "ARABIC LETTER VEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ق",
+      "codepoint": "U+0642",
+      "name": "ARABIC LETTER QAF",
+      "script": "sorani"
+    },
+    {
+      "char": "ک",
+      "codepoint": "U+06A9",
+      "name": "ARABIC LETTER KEHEH",
+      "script": "sorani"
+    },
+    {
+      "char": "گ",
+      "codepoint": "U+06AF",
+      "name": "ARABIC LETTER GAF",
+      "script": "sorani"
+    },
+    {
+      "char": "ل",
+      "codepoint": "U+0644",
+      "name": "ARABIC LETTER LAM",
+      "script": "sorani"
+    },
+    {
+      "char": "ڵ",
+      "codepoint": "U+06B5",
+      "name": "ARABIC LETTER LAM WITH SMALL V",
+      "script": "sorani"
+    },
+    {
+      "char": "م",
+      "codepoint": "U+0645",
+      "name": "ARABIC LETTER MEEM",
+      "script": "sorani"
+    },
+    {
+      "char": "ن",
+      "codepoint": "U+0646",
+      "name": "ARABIC LETTER NOON",
+      "script": "sorani"
+    },
+    {
+      "char": "و",
+      "codepoint": "U+0648",
+      "name": "ARABIC LETTER WAW",
+      "script": "sorani"
+    },
+    {
+      "char": "ۆ",
+      "codepoint": "U+06C6",
+      "name": "ARABIC LETTER OE",
+      "script": "sorani"
+    },
+    {
+      "char": "ه",
+      "codepoint": "U+0647",
+      "name": "ARABIC LETTER HEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ە",
+      "codepoint": "U+06D5",
+      "name": "ARABIC LETTER AE",
+      "script": "sorani"
+    },
+    {
+      "char": "ی",
+      "codepoint": "U+06CC",
+      "name": "ARABIC LETTER FARSI YEH",
+      "script": "sorani"
+    },
+    {
+      "char": "ێ",
+      "codepoint": "U+06CE",
+      "name": "ARABIC LETTER YEH WITH SMALL V",
+      "script": "sorani"
+    }
+  ],
+  "digits": [
+    {
+      "char": "٠",
+      "codepoint": "U+0660",
+      "name": "ARABIC-INDIC DIGIT ZERO",
+      "value": 0
+    },
+    {
+      "char": "١",
+      "codepoint": "U+0661",
+      "name": "ARABIC-INDIC DIGIT ONE",
+      "value": 1
+    },
+    {
+      "char": "٢",
+      "codepoint": "U+0662",
+      "name": "ARABIC-INDIC DIGIT TWO",
+      "value": 2
+    },
+    {
+      "char": "٣",
+      "codepoint": "U+0663",
+      "name": "ARABIC-INDIC DIGIT THREE",
+      "value": 3
+    },
+    {
+      "char": "٤",
+      "codepoint": "U+0664",
+      "name": "ARABIC-INDIC DIGIT FOUR",
+      "value": 4
+    },
+    {
+      "char": "٥",
+      "codepoint": "U+0665",
+      "name": "ARABIC-INDIC DIGIT FIVE",
+      "value": 5
+    },
+    {
+      "char": "٦",
+      "codepoint": "U+0666",
+      "name": "ARABIC-INDIC DIGIT SIX",
+      "value": 6
+    },
+    {
+      "char": "٧",
+      "codepoint": "U+0667",
+      "name": "ARABIC-INDIC DIGIT SEVEN",
+      "value": 7
+    },
+    {
+      "char": "٨",
+      "codepoint": "U+0668",
+      "name": "ARABIC-INDIC DIGIT EIGHT",
+      "value": 8
+    },
+    {
+      "char": "٩",
+      "codepoint": "U+0669",
+      "name": "ARABIC-INDIC DIGIT NINE",
+      "value": 9
+    }
+  ],
+  "punctuation": [
+    { "char": "،", "codepoint": "U+060C", "name": "ARABIC COMMA" },
+    { "char": "؟", "codepoint": "U+061F", "name": "ARABIC QUESTION MARK" }
+  ],
+  "compat": [
+    { "char": "ء", "codepoint": "U+0621", "name": "ARABIC LETTER HAMZA" },
+    {
+      "char": "آ",
+      "codepoint": "U+0622",
+      "name": "ARABIC LETTER ALEF WITH MADDA ABOVE"
+    },
+    {
+      "char": "أ",
+      "codepoint": "U+0623",
+      "name": "ARABIC LETTER ALEF WITH HAMZA ABOVE"
+    },
+    {
+      "char": "ؤ",
+      "codepoint": "U+0624",
+      "name": "ARABIC LETTER WAW WITH HAMZA ABOVE"
+    },
+    {
+      "char": "إ",
+      "codepoint": "U+0625",
+      "name": "ARABIC LETTER ALEF WITH HAMZA BELOW"
+    },
+    { "char": "ة", "codepoint": "U+0629", "name": "ARABIC LETTER TEH MARBUTA" },
+    { "char": "ث", "codepoint": "U+062B", "name": "ARABIC LETTER THEH" },
+    { "char": "ذ", "codepoint": "U+0630", "name": "ARABIC LETTER THAL" },
+    { "char": "ص", "codepoint": "U+0635", "name": "ARABIC LETTER SAD" },
+    { "char": "ض", "codepoint": "U+0636", "name": "ARABIC LETTER DAD" },
+    { "char": "ط", "codepoint": "U+0637", "name": "ARABIC LETTER TAH" },
+    { "char": "ظ", "codepoint": "U+0638", "name": "ARABIC LETTER ZAH" },
+    { "char": "ـ", "codepoint": "U+0640", "name": "ARABIC TATWEEL" },
+    {
+      "char": "ك",
+      "codepoint": "U+0643",
+      "name": "ARABIC LETTER KAF",
+      "note": "valid when typing Arabic text; forbidden in Kurdish (see lookalikes)"
+    },
+    {
+      "char": "ى",
+      "codepoint": "U+0649",
+      "name": "ARABIC LETTER ALEF MAKSURA"
+    },
+    {
+      "char": "ي",
+      "codepoint": "U+064A",
+      "name": "ARABIC LETTER YEH",
+      "note": "valid when typing Arabic text; forbidden in Kurdish (see lookalikes)"
+    },
+    { "char": "؛", "codepoint": "U+061B", "name": "ARABIC SEMICOLON" },
+    { "char": "٪", "codepoint": "U+066A", "name": "ARABIC PERCENT SIGN" },
+    {
+      "char": "‌",
+      "codepoint": "U+200C",
+      "name": "ZERO WIDTH NON-JOINER",
+      "note": "breaks cursive joining; on the KRG/CLDR Shift+H position"
+    }
+  ],
+  "lookalikes": [
+    {
+      "wrong": {
+        "char": "ك",
+        "codepoint": "U+0643",
+        "name": "ARABIC LETTER KAF"
+      },
+      "correct": "ک",
+      "contextual": false,
+      "note": "Arabic-standard kaf; visually identical to keheh in initial and medial forms"
+    },
+    {
+      "wrong": {
+        "char": "ي",
+        "codepoint": "U+064A",
+        "name": "ARABIC LETTER YEH"
+      },
+      "correct": "ی",
+      "contextual": false,
+      "note": "Arabic yeh keeps its two dots in final/isolated form; Farsi yeh drops them"
+    },
+    {
+      "wrong": {
+        "char": "ه",
+        "codepoint": "U+0647",
+        "name": "ARABIC LETTER HEH"
+      },
+      "correct": "ە",
+      "contextual": true,
+      "note": "Only when legacy text uses heh for the vowel ە (typically final position); heh as the consonant h is itself a valid Kurdish letter"
+    }
+  ]
+}

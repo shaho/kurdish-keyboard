@@ -1,0 +1,104 @@
+{
+  "name": "kurdish-keyboard",
+  "version": "0.4.0",
+  "description": "Embeddable virtual keyboard for typing Kurdish (Kurmanji and Sorani) in the browser",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./normalize": {
+      "import": {
+        "types": "./dist/normalize.d.ts",
+        "default": "./dist/normalize.js"
+      },
+      "require": {
+        "types": "./dist/normalize.d.cts",
+        "default": "./dist/normalize.cjs"
+      }
+    },
+    "./layouts/sorani": {
+      "import": {
+        "types": "./dist/layouts/sorani.d.ts",
+        "default": "./dist/layouts/sorani.js"
+      },
+      "require": {
+        "types": "./dist/layouts/sorani.d.cts",
+        "default": "./dist/layouts/sorani.cjs"
+      }
+    },
+    "./layouts/kurmanji-phonetic": {
+      "import": {
+        "types": "./dist/layouts/kurmanji-phonetic.d.ts",
+        "default": "./dist/layouts/kurmanji-phonetic.js"
+      },
+      "require": {
+        "types": "./dist/layouts/kurmanji-phonetic.d.cts",
+        "default": "./dist/layouts/kurmanji-phonetic.cjs"
+      }
+    },
+    "./layouts/kurmanji-official": {
+      "import": {
+        "types": "./dist/layouts/kurmanji-official.d.ts",
+        "default": "./dist/layouts/kurmanji-official.js"
+      },
+      "require": {
+        "types": "./dist/layouts/kurmanji-official.d.cts",
+        "default": "./dist/layouts/kurmanji-official.cjs"
+      }
+    },
+    "./styles.css": "./dist/styles.css",
+    "./codepoints.json": "./dist/codepoints.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "unpkg": "./dist/kurdish-keyboard.iife.js",
+  "jsdelivr": "./dist/kurdish-keyboard.iife.js",
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "build": "tsup && tsc -p tsconfig.build.json && node scripts/finalize-dist.mjs",
+    "verify:package": "node scripts/verify-package.mjs",
+    "prepublishOnly": "npm run test && npm run typecheck && npm run build && npm run verify:package",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaho/kurdish-keyboard.git"
+  },
+  "keywords": [
+    "kurdish",
+    "keyboard",
+    "virtual-keyboard",
+    "sorani",
+    "kurmanji",
+    "rtl",
+    "unicode"
+  ],
+  "license": "MIT",
+  "author": "Shaho Toofani",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "ajv": "^8.20.0",
+    "jsdom": "^29.1.1",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10"
+  }
+}

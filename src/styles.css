@@ -1,0 +1,83 @@
+/* kurdish-keyboard base styles. Optional — the widget works unstyled — but
+ * carries the responsive/touch behavior: capability queries only, never
+ * user-agent sniffing.
+ *
+ * Theming: set these custom properties on .kkb-panel or any ancestor:
+ *   --kkb-gap             spacing between keys/rows        (default 4px)
+ *   --kkb-key-size        key min width/height             (2.2rem; 44px coarse pointer)
+ *   --kkb-key-font-size   key label size                   (1.1rem; 1.3rem coarse pointer)
+ *   --kkb-key-bg          key background                   (ButtonFace)
+ *   --kkb-key-color       key label color                  (ButtonText)
+ *   --kkb-key-border      key border color                 (color-mix ButtonText/40%)
+ *   --kkb-key-radius      key corner radius                (4px)
+ *   --kkb-pressed-bg      active Shift/Caps background     (#cbdcee)
+ *   --kkb-focus-color     keyboard-focus outline color     (#1a56a0)
+ *   --kkb-surface-bg      docked/floating panel background (Canvas)
+ * Internal `--_*` properties are derived — override the public ones only. */
+
+.kkb-panel {
+  --_gap: var(--kkb-gap, 4px);
+  --_key-size: var(--kkb-key-size, 2.2rem);
+  --_key-font: var(--kkb-key-font-size, 1.1rem);
+  display: flex;
+  flex-direction: column;
+  gap: var(--_gap);
+}
+
+/* Touch targets: 44px comfortable minimum (Apple HIG / WCAG 2.5.8). */
+@media (pointer: coarse) {
+  .kkb-panel {
+    --_key-size: var(--kkb-key-size, 44px);
+    --_key-font: var(--kkb-key-font-size, 1.3rem);
+  }
+}
+
+.kkb-row {
+  display: flex;
+  gap: var(--_gap);
+  flex-wrap: wrap;
+}
+
+.kkb-panel button {
+  min-width: var(--_key-size);
+  min-height: var(--_key-size);
+  font-size: var(--_key-font);
+  cursor: pointer;
+  background: var(--kkb-key-bg, ButtonFace);
+  color: var(--kkb-key-color, ButtonText);
+  border: 1px solid
+    var(--kkb-key-border, color-mix(in srgb, ButtonText 40%, transparent));
+  border-radius: var(--kkb-key-radius, 4px);
+}
+
+.kkb-controls button[aria-pressed="true"] {
+  background: var(--kkb-pressed-bg, #cbdcee);
+  color: #000;
+}
+
+/* Always-visible keyboard focus (WCAG 2.4.7); default 3:1+ on white and the pressed bg. */
+.kkb-panel button:focus-visible {
+  outline: 2px solid var(--kkb-focus-color, #1a56a0);
+  outline-offset: 2px;
+}
+
+/* Narrow viewports: keys stretch to share the row's full width. */
+@media (max-width: 480px) {
+  .kkb-panel button {
+    flex: 1 1 auto;
+  }
+}
+
+.kkb-docked {
+  background: var(--kkb-surface-bg, Canvas);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.kkb-floating {
+  background: var(--kkb-surface-bg, Canvas);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  padding: 6px;
+  border-radius: 8px;
+}

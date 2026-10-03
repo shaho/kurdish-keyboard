@@ -1,0 +1,83 @@
+{
+  "name": "kurmanji-phonetic",
+  "displayName": "Kurmancî (QWERTY + row)",
+  "script": "kurmanji",
+  "dir": "ltr",
+  "source": "community convention — no standards body defines a Kurmanji layout (proposal/001-idea-research.md §3); full US QWERTY with the five Kurdish letters on a dedicated row",
+  "rows": [
+    {
+      "keys": [
+        { "iso": "E00", "base": "`", "shift": "~" },
+        { "iso": "E01", "base": "1", "shift": "!" },
+        { "iso": "E02", "base": "2", "shift": "@" },
+        { "iso": "E03", "base": "3", "shift": "#" },
+        { "iso": "E04", "base": "4", "shift": "$" },
+        { "iso": "E05", "base": "5", "shift": "%" },
+        { "iso": "E06", "base": "6", "shift": "^" },
+        { "iso": "E07", "base": "7", "shift": "&" },
+        { "iso": "E08", "base": "8", "shift": "*" },
+        { "iso": "E09", "base": "9", "shift": "(" },
+        { "iso": "E10", "base": "0", "shift": ")" },
+        { "iso": "E11", "base": "-", "shift": "_" },
+        { "iso": "E12", "base": "=", "shift": "+" }
+      ]
+    },
+    {
+      "keys": [
+        { "iso": "D01", "base": "q", "shift": "Q" },
+        { "iso": "D02", "base": "w", "shift": "W" },
+        { "iso": "D03", "base": "e", "shift": "E" },
+        { "iso": "D04", "base": "r", "shift": "R" },
+        { "iso": "D05", "base": "t", "shift": "T" },
+        { "iso": "D06", "base": "y", "shift": "Y" },
+        { "iso": "D07", "base": "u", "shift": "U" },
+        { "iso": "D08", "base": "i", "shift": "I" },
+        { "iso": "D09", "base": "o", "shift": "O" },
+        { "iso": "D10", "base": "p", "shift": "P" },
+        { "iso": "D11", "base": "[", "shift": "{" },
+        { "iso": "D12", "base": "]", "shift": "}" }
+      ]
+    },
+    {
+      "keys": [
+        { "iso": "C01", "base": "a", "shift": "A" },
+        { "iso": "C02", "base": "s", "shift": "S" },
+        { "iso": "C03", "base": "d", "shift": "D" },
+        { "iso": "C04", "base": "f", "shift": "F" },
+        { "iso": "C05", "base": "g", "shift": "G" },
+        { "iso": "C06", "base": "h", "shift": "H" },
+        { "iso": "C07", "base": "j", "shift": "J" },
+        { "iso": "C08", "base": "k", "shift": "K" },
+        { "iso": "C09", "base": "l", "shift": "L" },
+        { "iso": "C10", "base": ";", "shift": ":" },
+        { "iso": "C11", "base": "'", "shift": "\"" }
+      ]
+    },
+    {
+      "keys": [
+        { "iso": "B01", "base": "z", "shift": "Z" },
+        { "iso": "B02", "base": "x", "shift": "X" },
+        { "iso": "B03", "base": "c", "shift": "C" },
+        { "iso": "B04", "base": "v", "shift": "V" },
+        { "iso": "B05", "base": "b", "shift": "B" },
+        { "iso": "B06", "base": "n", "shift": "N" },
+        { "iso": "B07", "base": "m", "shift": "M" },
+        { "iso": "B08", "base": ",", "shift": "<" },
+        { "iso": "B09", "base": ".", "shift": ">" },
+        { "iso": "B10", "base": "/", "shift": "?" }
+      ]
+    },
+    {
+      "keys": [
+        { "iso": "B11", "base": "ç", "shift": "Ç" },
+        { "iso": "B12", "base": "ê", "shift": "Ê" },
+        { "iso": "B13", "base": "î", "shift": "Î" },
+        { "iso": "B14", "base": "ş", "shift": "Ş" },
+        { "iso": "B15", "base": "û", "shift": "Û" }
+      ]
+    },
+    {
+      "keys": [{ "iso": "A03", "base": " " }]
+    }
+  ]
+}

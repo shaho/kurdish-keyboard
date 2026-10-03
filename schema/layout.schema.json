@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/shaho/kurdish-keyboard/schema/layout.schema.json",
+  "title": "Layout",
+  "description": "A kurdish-keyboard layout: rows of keys, each key emitting an output string (possibly multi-codepoint) per layer.",
+  "type": "object",
+  "required": ["name", "displayName", "script", "dir", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Machine name, kebab-case."
+    },
+    "displayName": { "type": "string", "minLength": 1 },
+    "script": { "enum": ["kurmanji", "sorani"] },
+    "dir": { "enum": ["ltr", "rtl"] },
+    "source": {
+      "type": "string",
+      "description": "Provenance of the layout data (e.g. the CLDR file it was generated from)."
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["keys"],
+        "additionalProperties": false,
+        "properties": {
+          "keys": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["iso", "base"],
+              "additionalProperties": false,
+              "properties": {
+                "iso": {
+                  "type": "string",
+                  "pattern": "^[A-E][0-9]{2}$",
+                  "description": "ISO/IEC 9995 key position (row letter + column)."
+                },
+                "base": { "type": "string", "minLength": 1 },
+                "shift": { "type": "string", "minLength": 1 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

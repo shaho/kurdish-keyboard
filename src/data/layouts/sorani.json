@@ -1,0 +1,273 @@
+{
+  "name": "sorani",
+  "displayName": "Central Kurdish",
+  "script": "sorani",
+  "dir": "rtl",
+  "source": "CLDR release-43 keyboards/windows/ckb-t-k0-windows.xml",
+  "rows": [
+    {
+      "keys": [
+        {
+          "iso": "E00",
+          "base": "`",
+          "shift": "~"
+        },
+        {
+          "iso": "E01",
+          "base": "١",
+          "shift": "!"
+        },
+        {
+          "iso": "E02",
+          "base": "٢",
+          "shift": "@"
+        },
+        {
+          "iso": "E03",
+          "base": "٣",
+          "shift": "#"
+        },
+        {
+          "iso": "E04",
+          "base": "٤",
+          "shift": "$"
+        },
+        {
+          "iso": "E05",
+          "base": "٥",
+          "shift": "٪"
+        },
+        {
+          "iso": "E06",
+          "base": "٦",
+          "shift": "^"
+        },
+        {
+          "iso": "E07",
+          "base": "٧",
+          "shift": "&"
+        },
+        {
+          "iso": "E08",
+          "base": "٨",
+          "shift": "*"
+        },
+        {
+          "iso": "E09",
+          "base": "٩",
+          "shift": ")"
+        },
+        {
+          "iso": "E10",
+          "base": "٠",
+          "shift": "("
+        },
+        {
+          "iso": "E11",
+          "base": "-",
+          "shift": "_"
+        },
+        {
+          "iso": "E12",
+          "base": "=",
+          "shift": "+"
+        }
+      ]
+    },
+    {
+      "keys": [
+        {
+          "iso": "D01",
+          "base": "ق",
+          "shift": "`"
+        },
+        {
+          "iso": "D02",
+          "base": "و",
+          "shift": "وو"
+        },
+        {
+          "iso": "D03",
+          "base": "ە",
+          "shift": "ي"
+        },
+        {
+          "iso": "D04",
+          "base": "ر",
+          "shift": "ڕ"
+        },
+        {
+          "iso": "D05",
+          "base": "ت",
+          "shift": "ط"
+        },
+        {
+          "iso": "D06",
+          "base": "ی",
+          "shift": "ێ"
+        },
+        {
+          "iso": "D07",
+          "base": "ئ",
+          "shift": "ء"
+        },
+        {
+          "iso": "D08",
+          "base": "ح",
+          "shift": "ع"
+        },
+        {
+          "iso": "D09",
+          "base": "ۆ",
+          "shift": "ؤ"
+        },
+        {
+          "iso": "D10",
+          "base": "پ",
+          "shift": "ث"
+        },
+        {
+          "iso": "D11",
+          "base": "]",
+          "shift": "}"
+        },
+        {
+          "iso": "D12",
+          "base": "[",
+          "shift": "{"
+        }
+      ]
+    },
+    {
+      "keys": [
+        {
+          "iso": "C01",
+          "base": "ا",
+          "shift": "آ"
+        },
+        {
+          "iso": "C02",
+          "base": "س",
+          "shift": "ش"
+        },
+        {
+          "iso": "C03",
+          "base": "د",
+          "shift": "ذ"
+        },
+        {
+          "iso": "C04",
+          "base": "ف",
+          "shift": "إ"
+        },
+        {
+          "iso": "C05",
+          "base": "گ",
+          "shift": "غ"
+        },
+        {
+          "iso": "C06",
+          "base": "ه",
+          "shift": "\u200c"
+        },
+        {
+          "iso": "C07",
+          "base": "ژ",
+          "shift": "أ"
+        },
+        {
+          "iso": "C08",
+          "base": "ک",
+          "shift": "ك"
+        },
+        {
+          "iso": "C09",
+          "base": "ل",
+          "shift": "ڵ"
+        },
+        {
+          "iso": "C10",
+          "base": "؛",
+          "shift": ":"
+        },
+        {
+          "iso": "C11",
+          "base": "'",
+          "shift": "\""
+        },
+        {
+          "iso": "C12",
+          "base": "\\",
+          "shift": "|"
+        }
+      ]
+    },
+    {
+      "keys": [
+        {
+          "iso": "B00",
+          "base": "\\",
+          "shift": "/"
+        },
+        {
+          "iso": "B01",
+          "base": "ز",
+          "shift": "ض"
+        },
+        {
+          "iso": "B02",
+          "base": "خ",
+          "shift": "ص"
+        },
+        {
+          "iso": "B03",
+          "base": "ج",
+          "shift": "چ"
+        },
+        {
+          "iso": "B04",
+          "base": "ڤ",
+          "shift": "ظ"
+        },
+        {
+          "iso": "B05",
+          "base": "ب",
+          "shift": "ى"
+        },
+        {
+          "iso": "B06",
+          "base": "ن",
+          "shift": "ة"
+        },
+        {
+          "iso": "B07",
+          "base": "م",
+          "shift": "ـ"
+        },
+        {
+          "iso": "B08",
+          "base": "،",
+          "shift": ">"
+        },
+        {
+          "iso": "B09",
+          "base": ".",
+          "shift": "<"
+        },
+        {
+          "iso": "B10",
+          "base": "/",
+          "shift": "؟"
+        }
+      ]
+    },
+    {
+      "keys": [
+        {
+          "iso": "A03",
+          "base": " "
+        }
+      ]
+    }
+  ]
+}
